@@ -67,7 +67,7 @@ uvicorn app.main:app --reload
 or
 
 ```json
-{ "command": "Play relaxing music on YouTube" }
+{ "command": "Search for relaxing music on YouTube" }
 ```
 
 Each command is translated via the local model and automated through Playwright subprocesses.
